@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(255, 196, 0, 0.685);
+    margin-bottom: 40px;
+    height: 60px;
+}
+nav h3{
+    margin: 20px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin-top: 8px;
+    list-style: none;
+    margin-right: 20px;
+    font-weight: bolder;
+}
+nav a{
+    color:black;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: 500px; 
+    margin: 30px 0;
+}
+img{
+    max-width: 700px;
+    height: 500px;
+    border: 5px solid rgb(252, 220, 116);
+    align-items: center;
+    margin: 0 auto;
+}
+
+#content-index{
+    width:700px;
+    text-align: justify;
+    margin: 0 auto;
+}
+#content-MP{
+    width:700px;
+    text-align: justify;
+    margin: 0 auto;
+    background-color:rgba(238, 238, 46, 0.096) ;
+    padding: 15px;
+    border-radius: 10px;
+}
+#tituloCapela2{
+    text-align: center;
+}
+#tituloCapela1{
+    text-align: center;
+}
+
+#botao{
+    text-align: center;
+}
+button{
+    background-color: rgba(255, 196, 0, 0.685);
+    border-radius: 5px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: chocolate;
+    cursor: pointer;
+}
+footer{
+    margin-top: 20px;
+    border-top: 2px solid;
+    background-color: rgba(255, 196, 0, 0.685);
+    display:flex;
+    justify-content: center;
+    font-weight: bold
+}
