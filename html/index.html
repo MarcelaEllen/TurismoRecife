@@ -11,13 +11,13 @@
         <nav>
             <h3>Turistar Recife</h3>
             <ul>
-                <li><a href="#marcoZero">Marco Zero</a></li>
+                <li><a href="#marcoZero">Por dentro da Capela Dourada</a></li>
                 <li><a href="#PraiaBoaViagem">Praia de Boa Viagem</a></li>
                 <li><a href="#ruaBomJesus">Rua do bom Jesus</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="main-content-index">
         <div class="img-container">
             <img src="/img/Capela-Dourada3.jpg" alt="">
         </div>
@@ -53,7 +53,19 @@
                 </a>
             </div>
         </main>
-        <br><br><br>
+        <form>
+            <h3>Envie uma mensagem para nós:</h3>
+                <label for="nome">Nome completo</label>
+                <input id="nome" type="text" value="">
+                
+                <label for="email">Email</label>
+                <input id="email" type="email" value="">
+        
+                <label for="mensagem">Mensagem (opcional)</label>
+                <textarea id="mensagem" type="text" value=""></textarea>
+        
+                <button type="submit">Enviar</button>
+            </form>
     <footer>
     
             <p>&copy; 2023 TuristarRecife. Todos os direitos reservados.</p>
